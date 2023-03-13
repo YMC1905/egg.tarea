@@ -1,0 +1,113 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  h2 {
+    font-size: 36px;
+    margin-top: 40px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  input, textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  button[type="submit"] {
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+  
+  /* Estilos específicos para cada sección */
+  
+  #tipos-broches {
+    background-color: #f2f2f2;
+    padding: 40px;
+  }
+  
+  #tipos-broches ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #tipos-broches li {
+    margin-bottom: 20px;
+  }
+  
+  #tipos-broches a {
+    background-color: #333;
+    color: #fff;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  #tipos-broches a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  #contacto {
+    background-color: #fff;
+    padding: 40px;
+  }
+  
+  #contacto label {
+    font-size: 24px;
+  }
+  
+  #quienes-somos {
+    background-color: #f2f2f2;
+    padding: 40px;
+  }
+  
